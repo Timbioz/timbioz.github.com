@@ -1,0 +1,21 @@
+{
+  "name": "timbioz.github.com",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Timbioz"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Timbioz/timbioz.github.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6",
+    "highlight": "^9.9.0"
+  }
+}
