@@ -1,22 +1,27 @@
 {
-    "name": "timbioz.github.com",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.html",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://Timbioz@github.com/Timbioz/timbioz.github.com.git"
-    },
-    "author": "Timbioz",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/Timbioz/timbioz.github.com/issues"
-    },
-    "homepage": "https://github.com/Timbioz/timbioz.github.com#readme",
-    "devDependencies": {
-        "bower": "1.8.0"
-    }
+  "name": "timbioz.github.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Timbioz@github.com/Timbioz/timbioz.github.com.git"
+  },
+  "author": "Timbioz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Timbioz/timbioz.github.com/issues"
+  },
+  "homepage": "https://github.com/Timbioz/timbioz.github.com#readme",
+  "devDependencies": {
+    "bower": "1.8.0",
+    "browser-sync": "^2.18.6",
+    "gulp": "*",
+    "gulp-data": "*",
+    "gulp-nunjucks": "^3.0.0",
+    "gulp-twig": "^0.7.0"
+  }
 }

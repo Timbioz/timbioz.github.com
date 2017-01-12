@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>{{ title }}</title>
+    {% include '../partials/styles.twig' %}
+</head>
+<body>
+
+
+
+{% include '../partials/menu/menu.twig' %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-9">
+            <p class="float-right hidden-md-up">
+                <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
+            </p>
+
+            <div class="row">
+                <a href="/guides/guides-enable-ssh.html">
+                    <h2>
+                        Enable SSH
+                    </h2>
+                </a>
+            </div><!--/row-->
+        </div><!--/span-->
+
+        <div class="col-6 col-md-3 sidebar-offcanvas" id="sidebar">
+            <div class="list-group">
+                {% include "../partials/sidebar/sidebar-right.twig" %}
+            </div>
+        </div><!--/span-->
+    </div><!--/row-->
+
+    <hr>
+
+    <footer>
+        <p>&copy; Company 2017</p>
+    </footer>
+
+</div><!--/.container-->
+{% include '../partials/scripts.twig' %}
+</body>
+</html>
