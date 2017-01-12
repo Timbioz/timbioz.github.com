@@ -7,7 +7,8 @@ gulp.task('browser-sync', function() {
     browserSync.init({
         server: {
             baseDir: "./"
-        }
+        },
+        browser: "firefox"
     });
 
     gulp.watch(["*.html", "js/*.js", "css/*.css"]).on("change", browserSync.reload);
