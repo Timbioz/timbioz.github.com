@@ -1,6 +1,6 @@
-$(document).ready(function(){
+jQuery(document).ready(function(){
     //Cookies.set('timbioz', 'volkovtim@gmail.com_ambercond@gmail.com');
-    //alert("Come On");
+    alert("Come On");
 });
 
 function alertFunc() {
