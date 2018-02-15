@@ -4,5 +4,6 @@ $(document).ready(function(){
 });
 
 function alertFunc() {
+    Cookies.set('timbioz', 'volkovtim@gmail.com_ambercond@gmail.com');
     alert("Alert Button Clicked");
 }
