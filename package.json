@@ -1,0 +1,13 @@
+{
+  "name": "timbioz.github.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Timbioz/timbioz.github.com.git",
+  "author": "TIMBIOZ-PC\\Timbioz <volkovtim@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}
